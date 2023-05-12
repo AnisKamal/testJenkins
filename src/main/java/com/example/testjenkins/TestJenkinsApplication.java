@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestJenkinsApplication {
 
     public static void main(String[] args) {
-        log.info("test jenkins ");
         SpringApplication.run(TestJenkinsApplication.class, args);
+        log.info("test jenkins ");
     }
 
 }

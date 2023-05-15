@@ -3,12 +3,12 @@ pipeline {
   stages{
     stage('Build'){
       steps{
-        bat "\"${mvnHome}/bin/mvn\" clean install"
+        bat "\"C:/apache-maven-3.9.2/bin/mvn\" clean install"
       }
     }
     stage('Test'){
       steps{
-        bat "\"${mvnHome}/bin/mvn\" test"
+        bat "\"C:/apache-maven-3.9.2/bin/mvn\" test"
       }
     }
   }
